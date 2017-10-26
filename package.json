@@ -1,7 +1,7 @@
 {
   "name": "compretend-img",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.0.0-development",
+  "description": "Image element that understands what is in the image, powered by ML.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
@@ -37,5 +37,9 @@
     "ignore": [
       "dist"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeal/compretend-img.git"
   }
 }
