@@ -1,0 +1,41 @@
+{
+  "name": "compretend-img",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "tap tests/test-*.js --100",
+    "posttest": "standard",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "commitmsg": "validate-commit-msg",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "prepublishOnly": "distjs"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "gza": "^1.8.1",
+    "query-string": "^5.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "budo": "^10.0.4",
+    "cappadonna": "^1.2.0",
+    "codecov": "^3.0.0",
+    "cz-conventional-changelog": "^2.0.0",
+    "distjs": "^1.1.0",
+    "husky": "^0.14.3",
+    "semantic-release": "^8.2.0",
+    "standard": "^10.0.3",
+    "tap": "^10.7.2",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "standard": {
+    "ignore": [
+      "dist"
+    ]
+  }
+}
