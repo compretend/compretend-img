@@ -18,7 +18,7 @@ Now you can add compretend elements to your page.
 
 The above example will place an image on the page centered around the faces detected in the image.
 
-### <compretend-img>
+## ≺compretend-img≻
 
 Image element that understands what is in the image.
 
