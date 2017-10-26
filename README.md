@@ -1,5 +1,7 @@
 # Compretend Image Element
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mikeal/compretend-img.svg)](https://greenkeeper.io/)
+
 An image element that understands what is in the image, powered by ML.
 
 ## Usage
