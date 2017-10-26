@@ -7,7 +7,7 @@ An image element that understands what is in the image, powered by ML.
 Include compretend on your web page.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/compretend/dist/compretend.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/compretend-img/dist/compretend-img.min.js"></script>
 ```
 Now you can add compretend elements to your page.
 
