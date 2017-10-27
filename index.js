@@ -2,7 +2,7 @@
 const gza = require('../gza')
 const qs = require('query-string')
 
-const defaultAPI = 'https://compretend-img-api-adpnpebbka.now.sh'
+const defaultAPI = 'https://compretend-img-api-pkzilvwcyf.now.sh'
 
 const numberKeys = [
   'width',
@@ -41,6 +41,9 @@ const createImage = async settings => {
   let img = new Image()
   let url = `${settings.api || defaultAPI}/images/generate?${query}`
   let res = await fetch(url)
+  if (res.status !== 200) {
+    throw new Error('Image generation failed.')
+  }
   let blob = await res.blob()
   img.src = URL.createObjectURL(blob)
   return img
@@ -52,3 +55,4 @@ ${init}
   ${createImage}
 </compretend-img>
 `
+module.exports.createImage = createImage
