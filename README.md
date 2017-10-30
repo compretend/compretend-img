@@ -27,7 +27,7 @@ as element properties.
 
 ```javascript
 let elem = document.createElement('compretend-img')
-elem.crop = "faces"
+elem.crop = 'faces'
 elem.width = 320
 // OR
 document.body.innerHTML += `
