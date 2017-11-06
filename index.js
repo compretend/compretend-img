@@ -2,7 +2,7 @@
 const gza = require('gza')
 const qs = require('query-string')
 
-const defaultAPI = 'https://compretend-img-api-pkzilvwcyf.now.sh'
+const defaultAPI = 'https://compretend-img-api.now.sh'
 
 const numberKeys = [
   'width',
